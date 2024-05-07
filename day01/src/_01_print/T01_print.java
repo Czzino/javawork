@@ -42,6 +42,8 @@ public class T01_print {
 		
 		System.out.println("내이름 : 천진호");
 		System.out.println("나의 장점은 : 성실함 입니다.");
+		
+		
 	}
 
 }
