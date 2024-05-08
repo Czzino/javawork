@@ -2,9 +2,7 @@ package _01_print;
 
 public class T02_printf {
 
-	public static void main(String[] args) {
-		
-		
+	public static void main(String[] args) {	
 		// 십진수 출력
 		System.out.printf("%d\n", 3);
 		System.out.printf("%d , %d\n", 10, 20);
@@ -32,11 +30,10 @@ public class T02_printf {
 		// boolean 타입 출려
 		System.out.printf("%b\n", true);
 		System.out.printf("%b\n", 7 > 3);
-		
-		// 현재는 2024년 5월 이고, 우리나라의 평균키는 165.7입니다.
-		
+				
 		// 이 과정의 정원은 25명이고, 현재 25명 수강중 입니다. 100%를 달성했습니다.
-		
+		System.out.printf("이 과정의 정원은 %d이고, 현재 %d명 수강중 입니다. %d%%를 달성했습니다.", 25, 25, 100);		
+				
 	}
 
 }

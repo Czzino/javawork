@@ -14,9 +14,7 @@ public class T_03_booleans {
 		int num2 = 20;
 		// 참 거짓 판별할떄 사용
 		boolean bool04 = num1 <= num2;
-		System.out.println(bool04);
-		
-		
+		System.out.println(bool04);	
 	}
 
 }

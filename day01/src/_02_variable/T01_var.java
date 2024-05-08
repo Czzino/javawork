@@ -4,20 +4,10 @@ public class T01_var {
 
 	public static void main(String[] args) {
 	
-	//	기본자료형
-	//	정수 : int
-	//	실수 : double
-	//	참,거짓 : boolean
-	//	문자1개 : char(유니코드 사용)
-
-		// ctrl + 
-	//  crtrl + shift  	
-	//	정수 타입 : 
-	//	byte(1byte)
-	//  char(2byte)
-	//	short(2byte) 
-	//	int(4byte) 
-	//	long(8byte)
+		/*
+		 * 기본자료형 정수 : int 실수 : double 참,거짓 : boolean 문자1개 : char(유니코드 사용) ctrl + crtrl +
+		 * shift 정수 타입 : byte(1byte) char(2byte) short(2byte) int(4byte) long(8byte)
+		 */
 
 	int num1;
 	int num2 = 10;
@@ -37,8 +27,7 @@ public class T01_var {
 	System.out.println("sum + num1 + num2 = "+ num3);
 	
 	int num4 = sum + 5;
-	System.out.println("sum + 5 = "+num4);
-	
+	System.out.println("sum + 5 = "+num4);	
 	
 	// int 정수형 
 	int num5 = sum + 5;
