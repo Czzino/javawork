@@ -23,8 +23,20 @@ public class T02_Ex01 {
 		
 		int total = korean+computer+math;
 		float avg=total/3.0f;
-		System.out.println("당신의 총점은 : "+ total );
-		System.out.println("당신의 평균 점수는 :"+ avg);	
+		System.out.println("당신의 총점은 : " + total);
+		System.out.println("당신의 평균 점수는 : " + avg);
+		
+		// 강사님 코드 
+		System.out.print("국어 점수 입력 : ");
+		int kor = scans.nextInt();
+		System.out.print("컴퓨터 점수 입력 : ");
+		int com = scans.nextInt();
+		System.out.print("수학 점수 입력 : ");
+		int maths = scans.nextInt();
+		
+		int sum = kor + com + maths;
+		System.out.println("총점 : " + sum);
+		System.out.println("평균 : " + (double)sum/(double)3);
 		
 	}
 

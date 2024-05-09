@@ -3,10 +3,12 @@ package _02_variable;
 public class T_03_booleans {
 
 	public static void main(String[] args) {
+		// 기본자료형이 String이어서 문자로 true
 		boolean bool01 = true;
 		boolean bool02 = false;
 		System.out.println(bool01);
 		
+		// 결과값이 true, false 일떄
 		boolean bool03 = 10 < 3;
 		System.out.println(bool03);
 

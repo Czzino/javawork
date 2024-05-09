@@ -23,6 +23,7 @@ public class T03_printf_digit {
 		System.out.printf("%6.2f\n", 13.456);
 		System.out.printf("%.3f\n", 2323232.232323);
 		
+		// printf와 똑같은 기능
 		System.out.format("%.3f", 2323232.232323);
 	}
 

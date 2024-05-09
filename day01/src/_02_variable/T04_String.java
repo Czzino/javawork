@@ -3,7 +3,6 @@ package _02_variable;
 public class T04_String {
 
 	public static void main(String[] args) {
-
 		// 띄어쓰기
 		String str1 = "801호 ";
 		String str2 = "의료용 디지털 영상 표준활용";
@@ -21,10 +20,8 @@ public class T04_String {
 		 */
 		
 		System.out.println("강의실 : \"801호\n강좌명 : \"의료용 디지털 영상 표준활용\"");
-		System.out.println("강의실 : \"801호\"\n강좌명 : \"의료용 디지털 영상 표준활용\"");
-		System.out.println("강의실 : 801호\n강좌명 : 의료용 디지털 영상 표준활용");
-		
-		
+		System.out.println("강의실 : \"801호\"\\강좌명 : \"의료용 디지털 영상 표준활용\"");
+		System.out.println("강의실 : 801호\n강좌명 : 의료용 디지털 영상 표준활용");		
 	}
 
 }

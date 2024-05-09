@@ -4,6 +4,7 @@ public class T02_char {
 
 	public static void main(String[] args) {
 		// char 글자 하나만 넣을수 있음
+		// 유니코드 참고
 		char ch1 = 'a';
 		char ch2 = '김';
 		char ch3 = '&';
@@ -12,10 +13,12 @@ public class T02_char {
 		System.out.println(ch3);
 		
 		// 리터럴 변수 값
+		// 65 +1
 		char ch4 = 'A' + 1;
 		System.out.println(ch4);
+		
 		char ch5 = 'C';
-		// 자료형이 int형 으로 변결됨
+		// 자료형이 int형 으로 형변환
 		// char ch6 = ch5 + 1; 자동 형변환 때문에 오류
 		
 	    char ch7 = 'A' + '1';

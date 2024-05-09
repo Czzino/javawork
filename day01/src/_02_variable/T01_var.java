@@ -22,6 +22,8 @@ public class T01_var {
 	int sum = num1 + num2;
 	System.out.println("num1+num2 = "+sum);
 	
+	System.out.println(num1 + " + " + num2 + " = " + sum);
+	
 	// 변수를 하나 만들어 sum + 5 를 한 결과를 넣으시오. 그리고 출력하시오
 	int num3 = sum + num1 +num2;
 	System.out.println("sum + num1 + num2 = "+ num3);

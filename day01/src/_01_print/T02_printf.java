@@ -22,6 +22,7 @@ public class T02_printf {
 		System.out.printf("%f\n",3.5555555555555);
 		
 		// 문자1개 출력
+		// 문자한개일때는 호따옴표
 		System.out.printf("%c\n", 'm');
 		
 		// 문자열 출력

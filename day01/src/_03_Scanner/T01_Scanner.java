@@ -8,11 +8,13 @@ public class T01_Scanner {
 		
 		// 문자열을 입력받는 기능
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.print("이름을 입력하세요 : ");
 	    String name = scan.next(); // 문자열의 단어
 		System.out.println("당신의 이름은 " + name);
 		
 		// 숫자형을 입력받는 기능
+		// 문자열을 숫자형으로 받아
 		System.out.print("나이를 입력하세요 : ");
 		int age = scan.nextInt();
 		System.out.println("당신의 나이 : " + age);
@@ -34,10 +36,11 @@ public class T01_Scanner {
 	    String address2 = scan.next();
 	    System.out.println("주소 : " + address2);
 	    
+	    // 글자하나하나를 출력
 	    System.out.print("당신의 성별은 무엇입니까?");
-	    String gender2 = scan.next();
-	    char gender3 = scan.next().charAt(0);
-	    System.out.println("성별 : " + gender2);
+	    // String gender2 = scan.next();
+	    char gender3 = scan.next().charAt(2);
+	    // System.out.println("성별 : " + gender2);
 	    System.out.println("성별 : " + gender3);
 	    
 	}
