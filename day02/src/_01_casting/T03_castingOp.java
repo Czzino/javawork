@@ -11,6 +11,7 @@ public class T03_castingOp {
 		int result = b1 + b2;
 		byte result2 = (byte)(b1 + b2);
 		
+		// A의 해당하는 유니코드 출력
 		char c1 = 'A';
 		// char c2 = c1 + 1;
 		int c3 = c1 + 1;
@@ -23,6 +24,7 @@ public class T03_castingOp {
 		int result3 = num1 / num2;
 		System.out.println(num1 + "/" + num2 + "의 몫 : " + result3);
 		
+		// 소수점 이하자리까지 Double형 강제 형변환
 		double dou2 = 3;
 		double result4 = num1 / dou2;
 		System.out.println(result4);
@@ -35,6 +37,7 @@ public class T03_castingOp {
 		
 		num1 = 100;
 		num2 = 3;
+		// 나누기 할때 많이사용
 		double re = (double)num1 / num2;
 		re = num1 / (double)num2;
 		re = (double)num1 / (double)num2;
