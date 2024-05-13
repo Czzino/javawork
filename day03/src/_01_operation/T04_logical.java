@@ -26,10 +26,13 @@ public class T04_logical {
 		System.out.println(!b1);
 		
 		// 유니코드 범위를 확인하고 비교
-		char ch = 'K';
+		char ch = 'K'; // 75
 		System.out.println(ch);
-		System.out.println("소문자 인가? " + (ch >= 'a' && ch <= 'z'));
-		System.out.println("대문자 인가? " + (ch >= 'A' && ch <= 'Z'));	
+		System.out.println("소문자 인가? " + (ch >= 'a' && ch <= 'z')); // 97 ~ 122
+//										 75 >= 97
+		System.out.println("대문자 인가? " + (ch >= 'A' && ch <= 'Z'));	 // 65 ~ 90
+//										  75 >= 65=t		75 <= 90
+											
 	}
 
 }

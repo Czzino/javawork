@@ -24,10 +24,10 @@ public class T01_StringClass {
 		String str4 = new String("영상");
 		System.out.println("주소가 같은가? : " + (str3 == str4));
 		
-		
+		// 주소값이 다르지만 값을 비교해서 같은지 확인
 		System.out.println("값이 같은가?" + str3.equals(str4));
 		
-		
+	
 	}
 
 }

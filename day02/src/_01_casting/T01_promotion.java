@@ -12,7 +12,7 @@ public class T01_promotion {
 		
 		char ch1 = '김'; // 2Byte 유니코드 이용 0 부터 글자하나만 넣을수 있음
 		int inch = ch1; // 자료형이 char이면 유니코드 출력 아니면 문자 출력
-		System.out.println("'김'의 유니코드 : " + inch);
+		System.out.println("'김'의 유니코드 : " + inch);	
 		System.out.println(ch1);
 		
 		// 고정 소수점으로 나눔

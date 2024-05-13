@@ -37,7 +37,7 @@ public class T01_assignment {
 		num1 %= 4;
 		System.out.println("num1 %= 4 : " + num1);
 		
-		// 큰숫자 넣을때는 _ 기혼를 넣어서 사용
+		// 큰숫자 넣을때는 _ 기호를 넣어서 사용
 		// 컴퓨터는 숫자로 인식, 사람이 보기 편하도록 함
 		// int num3 = 300,000,000
 		int num3 = 300_000_000;

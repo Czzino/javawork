@@ -8,8 +8,7 @@ public class T04_String {
 		String str2 = "의료용 디지털 영상 표준활용";
 		System.out.println(str1);
 		System.out.println(str2);
-		System.out.println(str1 + " " +str2);
-		
+		System.out.println(str1 + " " +str2);	
 		// escape sequence(이스케이프 문자)
 		/* 
 		 + 문자 조합으로 특수 기능 수행
@@ -17,8 +16,7 @@ public class T04_String {
 		 \t : 탭만큼 띄우기
 		 \" : 쌍따옴표 출력
 		 \\ : 역슬래시(\) 출력
-		 */
-		
+		 */	
 		System.out.println("강의실 : \"801호\n강좌명 : \"의료용 디지털 영상 표준활용\"");
 		System.out.println("강의실 : \"801호\"\\강좌명 : \"의료용 디지털 영상 표준활용\"");
 		System.out.println("강의실 : 801호\n강좌명 : 의료용 디지털 영상 표준활용");		

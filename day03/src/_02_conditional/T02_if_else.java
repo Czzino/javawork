@@ -13,12 +13,12 @@ public class T02_if_else {
 		*/	
 		// 실행할 프로그램이 한줄이면 중괄호 생략가능
 		int num1 = -100;
-		if(num1 >= 0)
+		if(num1 > 0)
 			System.out.println("양수");
 		else
 			System.out.println("양수가 아니다");	
 		//실행할 프로그램이 한줄이상이면 중활호를 반드시 넣어야 한다.
-		int score = 90;
+		int score = 80;
 		if(score >= 80) {
 			System.out.println("축하합니다.");
 			System.out.println("합격입니다.");

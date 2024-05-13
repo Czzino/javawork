@@ -7,7 +7,7 @@ public class T04_ex01 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		// 1. 
-		System.out.print("문자 1개 입력 : ");
+		System.out.print("문자 1개 입력 : ");	
 		char cha = scan.next().charAt(0);
 		// String ch = scan.next();
 		
