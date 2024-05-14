@@ -48,7 +48,8 @@ public class T03_while {
 //			x--;
 		}
 		System.out.println("-----------------------");
-		// break : while문을 빠져나옴
+		// break : 반복문을 빠져 나온다
+		//while(true)일때 무한반복 돈다
 		int count = 0;
 		while (true) {
 			System.out.println(++count);
