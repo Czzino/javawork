@@ -3,34 +3,31 @@ package _02_method;
 public class T01_main_method {
 
 	public static void main(String[] args) {
-	
-		T01_api_method method = new T01_api_method();
-		// void 메소드는 반환값이 없는 메소드
-		method.print1();
-		// 반환형이 없는 메소드는 변수에 저장할 없고, 출력할수도 없다.
-		// int abc = method.print1();
-		//sysout.print ob1.print1() 할수 없음
-//		method.print2(); //  값이 10
-		int result = method.print2();
-	
-		result *= 2; // 연산
-		System.out.println(result);
-		System.out.println(method.print2());
-		System.out.println(method.print3());
-		method.print4(5);
+		T01_api_method ob1 = new T01_api_method();
 		
-		int re2 = method.print5(7,8);
+		ob1.print1();
+		// 주의 : 반환형이 없는 메소드는 main 클래스에서 변수에 저장할 수 도 없고, 출력할 수 도 없다
+		// int abc = ob1.print1();
+		// System.out.println(ob1.print1());
+		
+		int result = ob1.print2(); // 값 10이 들어옴
+		
+		System.out.println(result);
+		System.out.println(ob1.print2());
+		
+		System.out.println(ob1.print3());
+		
+		ob1.print4(5);
+		
+		int re2 = ob1.print5(7, 8);
 		System.out.println(re2);
 		
-		method.print6("더조은", 100);
+		ob1.print6("더조은", 100);
 		
-		T02_api_method method2 = new T02_api_method();
-		int result2 = method2.add(100, 200);
-		System.out.println(result2);
-		System.out.println(method2.add(100, 200));
-		System.out.println(method2.minus(10,5));
-		System.out.println(method2.multiply(10, 5));
-		System.out.printf("%2.f", method2.divide(10,3));
+		T02_api_method ob2 = new T02_api_method();
+		System.out.println(ob2.add(5, 9));
+		System.out.println(ob2.minus(10, 3));
+		System.out.println(ob2.multiply(7, 3));
+		System.out.printf("%.2f", ob2.divide(10, 3));
 	}
-
 }

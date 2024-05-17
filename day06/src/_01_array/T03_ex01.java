@@ -43,9 +43,9 @@ public class T03_ex01 {
 		// ---------------------------------------------
 		// 총점 270 , 280 , 290
 		// 평균 90 , 93.33 , 97.55
-		
+
 		// 강사님 코드
-		int score [][] = new int[3][3];
+		int score[][] = new int[3][3];
 		Scanner scan = new Scanner(System.in);
 //		System.out.println(1 + "첫번쨰 학생 국어, 수학, 컴퓨터 점수 입력 : "); // 50 60 70
 //		score[0][0] = scan.next();
@@ -64,58 +64,38 @@ public class T03_ex01 {
 //		System.out.println(score[0][0]);
 //		System.out.println(score[0][1]);
 //		System.out.println(score[0][2]);
-		
+
 		// 앞에서 i + 1 했을떄 괄호 해도 되고 안해도 되고
-		for(int i=0; i<score.length; i++) {
-			System.out.print(i+1 + ".번째 학생 국어, 수학, 컴퓨터 점수 입력 : "); // 50 60 70
-			for(int j=0; j<score[i].length; j++) {
+		for (int i = 0; i < score.length; i++) {
+			System.out.print(i + 1 + ".번째 학생 국어, 수학, 컴퓨터 점수 입력 : "); // 50 60 70
+			for (int j = 0; j < score[i].length; j++) {
 				score[i][j] = scan.nextInt();
 				// System.out.print(score[i][j] + ", "); 출력문은 확인용
 			}
-		
+
 		}
 //		int sum = 0;
 //		sum += score[0][0]
 //		sum += score[0][1]
 //		sum += score[0][2]
-		
+
 		// 첫번쨰사람 이후 두번쨰 사람은 sum = 0 으로 초기화
 		System.out.println("번호\t국어\t수학\t컴퓨터\t총점\t평균");
 		System.out.println("----------------------------");
-		for(int i=0; i<score.length; i++) {
-			System.out.print(i+1 + "\t");
-		    int sum = 0; // 기존에있던 sum이 없어지고 다시 초기화
-			for(int j=0; j<score[i].length; j++) {
+		for (int i = 0; i < score.length; i++) {
+			System.out.print(i + 1 + "\t");
+			int sum = 0; // 기존에있던 sum이 없어지고 다시 초기화
+			for (int j = 0; j < score[i].length; j++) {
 				System.out.print(score[i][j]); // 1 번쨰 할상의 총점이 들어있음
 				sum += score[i][j];
 			}
-			System.out.print(sum+ "\t");
+			System.out.print(sum + "\t");
 			// System.out.println((double)sum/score[i].length);
-			System.out.printf("%.2f\n", (double)sum/score[i].length);
-			
-		} 
+			System.out.printf("%.2f\n", (double) sum / score[i].length);
+
+		}
 		// double 로 형변환 하지않으면 소수점 이하 12번째 자리까지 나옴
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }

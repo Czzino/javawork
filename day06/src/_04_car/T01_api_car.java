@@ -19,26 +19,26 @@ public class T01_api_car {
 	String model = "model";
 	String color = "화이트";
 	int speed = 40;
+	int num = 10;
 	boolean power;
+
 	void power() {
 		power = !power;
-		if(power) {
+		if (power) {
 			System.out.println("시동을 킵니다");
 		} else {
 			System.out.println("시동을 끕니다");
 		}
 	}
-	
-	
+
 	int sppedUp() {
-		speed = speed + 10;
+		speed = + num;
 		return speed;
 	}
-	
+
 	int speedDown() {
-		speed = speed - 10;
+		speed = - num;
 		return speed;
 	}
-	
-		
+
 }
