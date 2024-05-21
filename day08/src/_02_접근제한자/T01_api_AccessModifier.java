@@ -10,7 +10,7 @@ public class T01_api_AccessModifier {
 		this.priNum = priNum;
 	}
 	
-	// 값을 보내는 부분
+	// 값을 얻어와서 리턴
 	int getPriNum() {
 		return priNum;
 	}

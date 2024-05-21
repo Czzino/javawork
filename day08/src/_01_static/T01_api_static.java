@@ -33,7 +33,7 @@ public class T01_api_static {
 		// 객체가 생성 되어야만 사용할 수 있기 때문
 		System.out.println("정적 메소드 sMe3()");
 		System.out.println(numSt);
-		// System.out.println(numIn);
+		// System.out.println(numIn); // 사용불가
 	}
 	
 	static String sMe4() {

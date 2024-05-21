@@ -3,6 +3,7 @@ package _03_bank;
 public class T01_api_bank {
 	private int balance;
 
+	// void함수 리턴없음
 	void deposit(int money) {
 		balance += money;
 	}
@@ -15,6 +16,7 @@ public class T01_api_bank {
 		}
 	}
 
+	// 잔고의 값을 리턴
 	int getBalance() {
 		return balance;
 	}
