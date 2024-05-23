@@ -12,6 +12,7 @@ public class T12_throw {
 			Exception e = new Exception("강제로 예외발생 시킴");
 			throw e;
 		} catch (Exception e) {
+			// 최상위 Exception 안에 담긴 문자가 e에 담김
 			System.out.println(e.getMessage());
 			System.out.println(e);
 		}

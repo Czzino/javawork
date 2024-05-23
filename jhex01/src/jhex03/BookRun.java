@@ -8,8 +8,7 @@ public class BookRun {
 		// 강사님 코드
 		// member의 줏소가 들어있음
 		LibraryController lc = new LibraryController(new Member("천진호", 35, "남자"));
-//		lc.insertBook(); // void라 출력할수 없음
-		lc.insertBook();
+		lc.insertBook();// void라 출력할수 없음
 		System.out.println(lc.selectAll());
 
 		ArrayList<Book> aList = lc.selectAll();

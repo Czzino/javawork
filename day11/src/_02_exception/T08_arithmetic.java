@@ -27,6 +27,7 @@ public class T08_arithmetic {
 //		}
 		Scanner sc = new Scanner(System.in);
 		System.out.print("나누기 할 정수 2개 입력 : ");
+		// 예외가 날수 있음 Exception으로 바꿈
 		int num1 = sc.nextInt();
 		int num2 = sc.nextInt();
 

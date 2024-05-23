@@ -25,7 +25,6 @@ public class T11_Exception {
 			// Exception 은 모든 에외클래스의 최상위 클래스
 			// 모든 예외를 다 받을수 있다
 			e.printStackTrace();
-//			System.out.println(e);
 			System.out.println("예외 발생");
 		}
 		// Exception 사용할때 주의점

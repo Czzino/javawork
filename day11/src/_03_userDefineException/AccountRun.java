@@ -7,7 +7,7 @@ public class AccountRun {
 	public static void main(String[] args) {
 		T01_api_bank b = new T01_api_bank();
 		TestMain aa = new TestMain();
-		
+
 		Account bank = new Account();
 		bank.deposit(1000);
 		try {
@@ -15,6 +15,12 @@ public class AccountRun {
 		} catch (UserException e) { // extends 상속받은 Exception 기능을 사용함
 			System.out.println(e.getMessage());
 		}
-		
+		// witdraw 사용할려면 try catch 사용
+		try {
+			bank.witdraw(80);
+		} catch (UserException e) {
+
+			e.printStackTrace();
+		}
 	}
 }

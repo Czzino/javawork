@@ -15,7 +15,7 @@ public class T07_inputMismatch {
 			System.out.print(i+ "번쨰 정수 입력 :");
 
 			try {
-				// 엔터가 어디에 있는지 확
+				// 엔터가 어디에 있는지 확인
 				int num = sc.nextInt();
 				sum += num;	
 			} catch(InputMismatchException e){
