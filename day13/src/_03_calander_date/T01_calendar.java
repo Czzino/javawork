@@ -63,15 +63,15 @@ public class T01_calendar {
 		// 0 ~ 12 오전
 		int apm = today.get(Calendar.AM_PM);
 		if (apm == 0) {
-			System.out.print("시간 : AM "); 
-			if(today.get(Calendar.HOUR) < 10) {
+			System.out.print("시간 : AM ");
+			if (today.get(Calendar.HOUR) < 10) {
 				System.out.println("0" + today.get(Calendar.HOUR));
 			} else {
 				System.out.println("0" + today.get(Calendar.HOUR));
 			}
 		} else {
-			System.out.print("시간 : PM "); 
-			if(today.get(Calendar.HOUR) < 10) {
+			System.out.print("시간 : PM ");
+			if (today.get(Calendar.HOUR) < 10) {
 				System.out.println("0" + today.get(Calendar.HOUR));
 			} else {
 				System.out.println("0" + today.get(Calendar.HOUR));
@@ -81,7 +81,6 @@ public class T01_calendar {
 		System.out.println("분 : " + today.get(Calendar.MINUTE));
 		System.out.println("분 : " + today.get(Calendar.SECOND));
 		System.out.println("1/1000초 : " + today.get(Calendar.MILLISECOND));
-	
 
 	}
 

@@ -20,6 +20,7 @@ public class T04_date {
 		System.out.println(sdf.format(now));
 		
 		// 맨뒤에 a : 오전/오후
+		// a는 아시아나 미국 기준으로 오전 오후 출력
 		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss a") ;
 		System.out.println(sdf2.format(now));
 		
@@ -36,6 +37,7 @@ public class T04_date {
 		SimpleDateFormat sdf6 = new SimpleDateFormat("MM-dd-yyyy");
 		System.out.println(sdf6.format(now));
 		
+		// E가 요일
 		SimpleDateFormat sdf7 = new SimpleDateFormat("yy년 MM월 dd일 E요일");
 		System.out.println(sdf7.format(now));
 		

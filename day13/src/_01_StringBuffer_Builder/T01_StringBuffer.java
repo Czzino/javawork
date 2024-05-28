@@ -40,7 +40,7 @@ public class T01_StringBuffer {
 		System.out.println("----------------------------------");
 		
 		// 중간에 데이터삽입 insert
-		// insert(얼만큼떨어뜨려서, 문자열)
+		// insert(얼만큼떨어뜨려서(offset), 문자열)
 		sb1.insert(1, "java");
 		System.out.println("sb1=" + sb1);
 		
