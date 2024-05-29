@@ -24,7 +24,7 @@ public class T01_LinkedList {
 
 		list.removeLast(); // 맨 끝노드 삭제
 		System.out.println(list);
-
+		System.out.println("----------------------------");
 		/*
 		 * for문을 쓰면 비효율적 : i번쨰 주소는 i-1번에 들어있어서 i-1을 먼저 찾아야ㄷ 되고 i-1의 주소를 찾으려면 i-2를 먼저
 		 * 찾아야됨 결과적으로 0~i 까지 다시 돌아야 됨
@@ -48,7 +48,7 @@ public class T01_LinkedList {
 			// next() => 순회하면서 객체를 얻어옴
 			System.out.println(iterator.next() + " ");
 		}
-
+		System.out.println("----------------------------");
 		list.clear(); // 리스트의 목록 전부삭제
 		System.out.println("clear" + list);
 		// get(int index)
@@ -62,9 +62,10 @@ public class T01_LinkedList {
 		list.addLast(20); // 맨끝에 데이터추가 잘 사용하지 않음
 		list.add(50);
 		for (Integer it : list) {
-			System.out.println("향상된 : " + it);
+			System.out.println("향상된 for : " + it);
 		}
 
+		System.out.println("----------------------------");
 		System.out.println("list.get(0) : " + list.get(0));
 		System.out.println("list.get(1) : " + list.get(1));
 		System.out.println("list.get(2) : " + list.get(2));
