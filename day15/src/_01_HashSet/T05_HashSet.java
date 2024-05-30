@@ -26,7 +26,7 @@ public class T05_HashSet {
 		// set은 순서가 없어서 정렬하지 못함
 		// 정렬을 하려면 List로 변환
 		List list = new LinkedList(set); // ArrayList, Vector 모두 똑같이
-		Collections.sort(list);
+		Collections.sort(list); // set은 정렬하지 못해서 List형태로 바꿔서 sort 정렬
 		System.out.println(list);
 	}
 

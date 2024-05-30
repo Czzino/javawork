@@ -19,6 +19,7 @@ public class T03_TreeMap {
 		treeMap.put("watermelon", 10000);
 
 		System.out.println("[c~n 사이의 단어 검색]");
+		// c ~ n 사이의 값을 가져옴
 		NavigableMap<String, Integer> raviMap = treeMap.subMap("c", true, "n", true);
 
 		// sort 정렬

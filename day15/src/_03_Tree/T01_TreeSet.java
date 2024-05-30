@@ -39,6 +39,7 @@ public class T01_TreeSet {
 		System.out.println();
 		while(!score.isEmpty()) {
 			score.pollFirst(); // 가장 작은수 삭제
+//			score.pollLast(); // 가장 큰수 삭제
 			System.out.println("남아있는 객체 수 : " + score.size());
 		}
 		

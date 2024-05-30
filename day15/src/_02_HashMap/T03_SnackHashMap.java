@@ -33,7 +33,7 @@ public class T03_SnackHashMap {
 
 		// 1.3. Iterator를 돌면서 출력
 		while (itKey.hasNext()) {
-			String key = itKey.next();
+			String key = itKey.next(); // 키만가져와서 값을 가져옴
 			Snack value = map.get(key);
 			System.out.println(key + "," + value);
 		}
@@ -45,6 +45,7 @@ public class T03_SnackHashMap {
 		 * Set(1개의 매개변수) 아래처러 사용해야 됨
 		 * 
 		 */
+		// 제네릭을 넣고 사용
 		Set<Entry<String, Snack>> entrySet2 = map.entrySet();
 		Iterator<Entry<String, Snack>> itEntry2 = entrySet2.iterator();
 		while (itEntry2.hasNext()) {
