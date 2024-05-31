@@ -1,17 +1,19 @@
-package Book;
+package BookClass;
 
-import java.util.ArrayList;
 import java.util.Objects;
 
-public class Book extends BookController implements Comparable<Book> {
-	String title;
-	String author;
-	String category;
-	int price;
-	ArrayList<Book> list = new ArrayList<Book>();
+public class Book implements Comparable<Book> {
+	private String title;
+	private String author;
+	private String category;
+	private int price;
 
-	public Book(String string, String author, String category, int price) {
-		this.title = string;
+	public Book() {
+		
+	}
+
+	public Book(String title, String author, String category, int price) {
+		this.title = title;
 		this.author = author;
 		this.category = category;
 		this.price = price;
@@ -61,6 +63,7 @@ public class Book extends BookController implements Comparable<Book> {
 
 	@Override
 	public boolean equals(Object obj) {
+		// Object 검사 없어도 됨
 		if (this == obj)
 			return true;
 		if (obj == null)
@@ -72,18 +75,14 @@ public class Book extends BookController implements Comparable<Book> {
 				&& Objects.equals(title, other.title);
 	}
 
-	// compareTo - title
+	/*
+	 * @Override public boolean equals(Object obj)
+	 *  { Book other = (Book) obj; return
+	 * price == other.price; }
+	 */
 	@Override
 	public int compareTo(Book o) {
-
-		if (title != o.title) {
-			return -1;
-		} else if (title == o.title) {
-			return 0;
-		} else {
-			return 1;
-		}
-
+		// String 타입 title을 비
+		return this.getTitle().compareTo(o.getTitle());
 	}
-
 }
