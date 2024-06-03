@@ -24,11 +24,13 @@ public class T08_DaemonThread {
 
 		AutoSaveThread t = new AutoSaveThread();
 
-		// 어떤 조건이 만족할떄 사용
+		// setDaemon(); 기본값이 false
+		// 어떤 역활의 보조 역할
 		t.setDaemon(true);
 		t.start();
 		
-		for(int i=0; i<=10; i++) {
+		// main 쓰레드가 끝나면 Daemon 도 끝남
+		for(int i=1; i<=10; i++) {
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {

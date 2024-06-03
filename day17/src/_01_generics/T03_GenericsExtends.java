@@ -35,7 +35,9 @@ class Tjoeun {
 }
 
 // Fruit , Object 다됨 제네릭
+// Fruit 부모타입으로 만들면 자식타입 형변환 가능
 class Box2<T> {
+	// list 10개짜리 만듬
 	ArrayList<T> list = new ArrayList<>();
 
 	void add(T item) {

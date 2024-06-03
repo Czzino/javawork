@@ -9,7 +9,7 @@ public class T01_EnumMonth {
 		Month today = null;
 
 		Calendar cal = Calendar.getInstance();
-		// 요일 1~7
+		// 달
 		int month = cal.get(cal.DAY_OF_MONTH);
 		System.out.println(month);
 		

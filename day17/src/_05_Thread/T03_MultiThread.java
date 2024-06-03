@@ -23,6 +23,8 @@ public class T03_MultiThread {
 
 	public static void main(String[] args) {
 
+		// main 클래스 시작할떄 main 쓰레드가 시작
+		// 그다음 bt start 쓰레드 시작
 		Toolkit tookit = Toolkit.getDefaultToolkit();
 		BeepThread bt = new BeepThread();
 		bt.start();

@@ -43,7 +43,7 @@ public class BookRun {
 	}
 
 	public static void listAll() {
-		
+
 		ArrayList<Book> bookList = bc.listAll();
 		if (bookList.isEmpty())
 			System.out.println("도서가 하나도 없습니다.");

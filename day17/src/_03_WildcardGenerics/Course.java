@@ -3,7 +3,7 @@ package _03_WildcardGenerics;
 public class Course {
 	// 모든 사람이면 등록 가능
 	// 모든 객체 들어올수있음
-	// ? = Object
+	// ? = extends Object
 	static void registerCourse(Applicent<?> a) {
 		// 클래스 이름 나옴 패키지 경로
 		System.out.println(a.kind.getClass().getSimpleName() + "가 course에 등록함");
