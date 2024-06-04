@@ -6,6 +6,7 @@ import java.util.function.Predicate;
 
 public class T01_Predicate {
 
+	// 클래스 변수
 	static List<Student> list = Arrays.asList(
 		
 			new Student("홍길동", "남", 100),
@@ -15,12 +16,13 @@ public class T01_Predicate {
 			new Student("BTS", "남", 100));
 
 
-	// 남 여 별 평균 구하기
+	// 남,여별 평균 구하기
 	static double avg(Predicate<Student> predicate) {
 		int sum = 0; // 합계를 저장할 변수 
 		int count = 0; // 합계를 더할 변수
 		
 		for(Student student : list) {
+			// Student 남,여가 맞을때만 실행
 			if(predicate.test(student)) {
 				sum += student.getCom();
 				++count;

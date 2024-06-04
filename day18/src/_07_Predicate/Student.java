@@ -6,6 +6,7 @@ public class Student {
 	private int com;
 
 	public Student(String name, String gender, int com) {
+		super();
 		this.name = name;
 		this.gender = gender;
 		this.com = com;

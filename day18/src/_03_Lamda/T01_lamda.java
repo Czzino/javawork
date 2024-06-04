@@ -13,6 +13,7 @@ public class T01_lamda {
 		};
 		System.out.println(mm.method(3, 5));
 
+		// 한줄이면 retrun도 생략
 		mm = (x, y) -> {
 			return x + y;
 		};
@@ -38,11 +39,5 @@ public class T01_lamda {
 	static int sum(int x, int y) {
 		return x + y;
 	}
-//	static int sum2(int y) {
-//		return x + y;
-//	}
-//	static int sum3(int x, int y) {
-//		return x + y;
-//	}
 
 }

@@ -18,7 +18,7 @@ public class T01_lamda {
 			System.out.println("람다에서 출력");
 		};
 		mm1.method();
-		
+		// 한줄이면 {} 생략
 		mm1 = () -> System.out.println("람다2에서 출력");
 		mm1.method();
 	}

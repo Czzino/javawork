@@ -5,6 +5,7 @@ import java.util.function.*;
 
 public class T02_Function {
 
+	// 클래스 변수
 	static List<Student> list = Arrays.asList(
 				new Student("홍길동", 79, 100), 
 				new Student("박길동", 84, 89),
@@ -13,13 +14,14 @@ public class T02_Function {
 				new Student("BTS",98, 100));
 
 
-	// 반환형 double
+	// 평균 출력 메서드
 	static double avg(ToIntFunction<Student> function) {
 		int sum = 0;
 		for(Student student : list) {
 			sum += function.applyAsInt(student);
 		}
 		
+		// 값이 목만 나와서 double형으로 값을 변경
 		double avg = sum / list.size();
 		return avg;
 	}

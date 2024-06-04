@@ -18,6 +18,8 @@ public class T02_lamda {
 		};
 		mo.method(4);
 		
+		
+		// 매개변수가 한개일때 {} 생략 가능
 		mo = (x) -> System.out.println(x * 4);
 		mo.method(4);
 		
